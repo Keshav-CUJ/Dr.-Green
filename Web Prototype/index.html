@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Dr. Green</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+ <style>
+    .navbar{
+       
+        background-color: #16423C ;
+        height:60px;
+        border-radius: 30px;
+        text-align: center;
+        border: double 10px white;
+        position:fixed;
+        top:30px;
+        left:8px;
+        right:0px;
+        z-index:10;
+        margin-right: 10px;
+       
+    }
+    .navbar>a{
+        display:inline-block;
+        color:#E9EFEC;
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        margin-top: 20px;
+        margin-right: 20px;
+        padding:5px 10px;
+        transition-property: all;
+        transition-duration: 50ms;
+        transition-timing-function: linear;
+        cursor:pointer;
+        text-decoration: none;
+      
+    }
+    .navbar>.logo{
+        display:inline-block;
+        position:absolute;
+        left:20px;
+        top:2px;
+    }
+    .navbar>a:hover, .navbar>a:focus{
+        background: linear-gradient(0deg,#6A9C89,#E9EFEC);
+        color:#16423C;
+        border-radius: 30px;
+        letter-spacing: 0.2rem;
+       
+
+    }
+    .home{
+        width:100%;
+        
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right:0px;
+    }
+    .text{
+        font-family: "Ubuntu", sans-serif;
+        text-transform: capitalize;
+        position: relative;
+        bottom:750px;
+        left:95px;
+        display:inline-block;
+        
+    }
+    .text>h1{
+        font-size: 4rem;
+        margin-bottom: 20px;
+    }
+    .text span{
+        color:#16423C;
+    }
+    .text p{
+        font-size: 1.3rem;
+        text-transform: none;
+       
+               
+    }
+    .text a{
+        display: inline-block;
+        font-size: 1.3rem;
+        border: 3px solid #16423C;
+        padding: 5px 40px;
+        margin-right: 20px;
+        margin-top: 20px;
+        cursor: pointer;
+        transition-property: all;
+        transition-duration: 50ms;
+        transition-timing-function: linear;
+        box-shadow:0 0 5px  #16423C;
+        
+        
+    }
+    .text a:hover, .text a:focus{
+        border: 3px solid #16423C; 
+        background-color: #16423C;
+        color:white;
+     
+    }
+    @media (min-width:1201px) and (max-width:1600px){
+      
+   .text{
+     bottom:610px;
+     left:60px;
+
+   }
+   .text>h1{
+        font-size: 3.5rem;
+        margin-bottom: 20px;
+    }
+   .text p{
+    font-size:1.1rem;
+   }
+
+                                                     }
+   
+    .why{
+        font-family: "Ubuntu", sans-serif;
+        position: relative;
+        bottom:330px;
+    }
+ 
+    .why>h2{
+        text-align: center;
+        font-size:2.5rem;
+        color: #16423C;
+        text-decoration:  #16423C underline wavy;
+        margin-bottom: 50px;
+    
+        
+    }
+    .robo{
+        display:inline-block;
+        width:60%;
+        margin: 0px 50px;
+        padding: 10px 50px;
+        border: double 10px #16423C; 
+        border-radius: 30px;
+        box-shadow: 0 0 8px #16423C;
+        transition-property: all;
+        transition-duration: 50ms;
+        transition-timing-function: linear;
+    }
+    .robo>h3{
+        font-size: 1.4rem;
+        color:#ffc727ff;
+    }
+    
+    .left{
+        float:left;
+    }
+   
+    .right{
+        margin-top: 50px;
+        float:right;
+    }
+    .robo:hover, .robo:focus{
+        width:70%;
+       background-color: #16423C;
+       color: #E9EFEC;
+       box-shadow:5px 5px 8px #16423C;  
+    }
+    .video{
+        display:inline-block;
+        background-color: #E9EFEC;
+        text-align: center;
+        padding:20px;
+        border-radius: 30px;
+        position:relative;
+        bottom:200px;
+        left:100px;
+        box-shadow:5px 5px 8px #16423C;  
+    }
+    .video>video{
+        box-shadow:0 0 10px #16423C;  
+    }
+    footer{
+        background-color: #16423C; 
+        color:#E9EFEC; 
+        text-align: center; 
+        font-family: "Ubuntu", sans-serif;
+        border-radius: 30px;
+       
+    }
+
+ </style>
+   
+</head >
+
+<body style="margin:0px 0px;">
+<div class="navbar">
+    <div class="logo">
+        <img src="./assets/AG.svg" style="opacity: 1;" draggable="false">
+    </div>
+<a href="./index.html">HOME</a>
+<a href="./diagnose.html">DIAGNOSE</a>
+<a>WORKING</a>
+<a>ABOUT US</a>
+</div>
+<img src="./assets/path399.svg" width="100%" >
+<div class="text">
+<h1 draggable="true">transforming <span>plant </br>care</span> with AI <br>technology</h1>
+<p draggable="true">At <span>Dr. Green</span>, we empower farmers to diagnose plant disease </br>instantly using AI. Simply upload a photo of your plant's leaf <br> and 
+we will provide you an accurate diagnosis and treatment plan.</p>
+
+<a>diagnose</a>
+<a>How it works</a>
+</div>
+
+<div class="why">
+<h2>Why Dr. Green</h2>    
+<div class="robo left" >
+    <img src="./assets/diagnose.svg" width="350px" style=" float:left; margin-right: 50px; border-radius:30px">
+    <h3>Traditional Plant Disease diagnose</h3>
+    <ul>
+        <li>Experts may not be available or accessible anywhere.</li>
+        <li>Requires significant experties and experience of Agronomists or Plant pathologists.</li>
+        <li>Time-consuming and may not be feasible for large scale farms.</li>
+        <li>Misdiagnose and wrong medicines can cause huge crop loss and soil loss. </li>    
+    </ul>
+</div>
+<div class="robo right" >
+    <img src="./assets/robo.svg" width="350px" style=" float:right;  border-radius:30px ">
+    <h3>Traditional Plant Disease diagnose</h3>
+    <ul>
+        <li>Experts may not be available or accessible anywhere.</li>
+        <li>Requires significant experties and experience of Agronomists or Plant pathologists.</li>
+        <li>Time-consuming and may not be feasible for large scale farms.</li>
+        <li>Misdiagnose and wrong medicines can cause huge crop loss and soil loss. </li>    
+    </ul>
+</div>
+</div>
+  
+<div class="video">
+    <video src="./assets/video.mp4" controls width="70%" style="border-radius: 30px;"></video>
+</div>
+  <footer  > Capture and Diagnose your crop.<br>Copyright © Dr. Green</footer>
+</body>
+
+</html>
