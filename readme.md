@@ -12,7 +12,7 @@ Our project aims to develop a **mobile and web-based application** that detects 
 - 🔄 **Continuous Learning**: Feedback loop for improving model performance over time.
 
 ## 🏗 System Architecture
-![System Architecture](./Screenshot%202025-04-01%20142754.png)
+![System Architecture](./Introduction/Screenshot%202025-04-01%20142754.png)
 
 ### 🔹 How It Works:
 1. **User uploads images** of tomato leaves (2-3 images from different angles).
@@ -23,7 +23,7 @@ Our project aims to develop a **mobile and web-based application** that detects 
 6. **Feedback Mechanism**: Users can provide feedback to refine predictions and improve accuracy.
 
 ## 🛠 Technical Approach
-![Technical Approach](./Screenshot%202025-04-01%20142820.png)
+![Technical Approach](./Introduction/Screenshot%202025-04-01%20144312.png)
 
 ### 📂 Datasets
 - **PlantVillage**: Contains **54,000 images** of 14 crops and 38 disease classes.
@@ -43,12 +43,13 @@ Our project aims to develop a **mobile and web-based application** that detects 
 - **Feature Extraction & Ensembling**: Combining **ML and DL** approaches for feature fusion.
 - **Weight Optimization**: Assigns optimized weights based on crop type.
 
-### 🌐 Libraries being used
-| Category        | Libraries |
+### 🌐 Libraries, Models and tech
+| Category        | Libraries, Models|
 |---------------|-----------------|
-| **Image enhancement** | Pytorch, OpenCV|
-| **Feature extraction and training** | Tensorflow |
-
+| **Image enhancement** | Pytorch, OpenCV, REDNet|
+| **Segmentation** | UNet|
+| **Feature extraction** | Tensorflow, VGG16, InceptionV3 |
+| **Training** | ANN, Nature Inspired algorithms |
 
 
 ## 📌 Future Enhancements
